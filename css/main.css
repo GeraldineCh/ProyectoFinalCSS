@@ -60,20 +60,15 @@ a:hover {
 	visibility: hidden;
 }
 
-/*Zona experimental*/
-.logo{
-  width: 70px;
-  height: 74px;
-  text-align: left;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: url(../img/logo-white.png);
-  background-size:contain;
-  border-style: none;
+#Lyft-blanco {
+	display: inline-block;
+	height: 50px;
 }
 
-nav.solid #logo .logo {
-  background-image: url(../img/logo-pink.png);
+/*Zona experimental*/
+
+#nav-header .header-in {
+	background-color: pink;
 }
 .logo img{
   z-index: 3;
