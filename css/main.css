@@ -1,0 +1,49 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	margin: 0;
+}
+
+video { 
+  width: 100%;
+  height: auto;
+  position: fixed;     
+  z-index: -100;
+}
+
+header {
+	padding: 20px 80px;
+}
+
+#Lyft-blanco {
+	display: inline-block;
+	height: 50px;
+}
+
+#menu {
+	vertical-align: top;
+	display: inline-block;
+	word-spacing: 30px;
+	width: 85%;
+}
+
+nav {
+	margin-left: 70%;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+#in {
+	padding: 8px;
+	border: 2px solid white;
+    border-radius: 5px;
+}
