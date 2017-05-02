@@ -134,3 +134,44 @@ input {
 	margin-left: 150px;
 	height: 550px;
 }
+
+/*SECCIÓN INFORMACIÓN*/
+#video {
+	color: black;
+	position: absolute;
+	width: 99.9%;
+	margin-top: 1340px;
+}
+
+#video1, #video2, #video3 {
+	margin-top: -5px;
+}
+
+.vid-text, .vid-video {
+	display: inline-block;
+}
+
+.vid-text {
+    width: 26%;
+    padding: 15px 50px;
+}
+
+.vid-video {
+	vertical-align: top; 
+}
+
+.pre-title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.title-video {
+	margin-top: -15px;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+iframe {
+    width: 893px;
+    height: 470px;
+}
