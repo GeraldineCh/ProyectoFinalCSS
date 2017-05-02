@@ -8,91 +8,137 @@
 </head>
 <body>
 <!--Cuerpo-->
-	
-	<!--Video de fondo-->
-	<video autoplay="autoplay">
-		<source src="img/hero-video.mp4" type="video/ogg">
-	</video>
+	<div id="container">
+		
+		<!--Video de fondo-->
+		<video autoplay="autoplay">
+			<source src="img/hero-video.mp4" type="video/ogg">
+		</video>
 
-	<!--Cabecera-->
-	<header>
-		<img id="Lyft-blanco" src="img/logo-white.png">
-		<div id="menu">
-			<nav>
-				<a href="#drive">Drive</a>
-				<a href="#explore">Explore</a>
-				<a href="#help">Help</a>
-				<a id="in" href="#login">LogIn</a>
-				<a id="up" href="#">SignUp</a>
-			</nav>	
+		<!--Cabecera-->
+		<header>
+			<img id="Lyft-blanco" src="img/logo-white.png">
+			<div id="menu">
+				<nav>
+					<a href="#drive">Drive</a>
+					<a href="#explore">Explore</a>
+					<a href="#help">Help</a>
+					<a id="in" href="#login">LogIn</a>
+					<a id="up" href="#">SignUp</a>
+				</nav>	
+			</div>
+		</header>
+
+		<!--Formulario-->
+		<div id="form">
+			<h1>TURN MILES<br>INTO MONEY</h1>
+			<h3>SIGN UP TO DRIVE WITH LYFT</h3>
+
+			<input type="text" id="number" placeholder="Phone Number"><br><br>
+			<input type="text" id="name" placeholder="Name"><br><br>
+			<input type="email" id="mail" placeholder="Email"><br><br>
+			<input type="text" id="city" placeholder="City"><br><br><br>
+
+			<button id="driver">Become a driver</button>
+			<a id="sup" href="#login">Sign up to ride</a>
+			<p id="bajada-form">Already applied? Check the status of your application here <br><br> Earn money for inviting friends to drive. Learn more.</p>
 		</div>
-	</header>
 
-	<!--Formulario-->
-	<div id="form">
-		<h1>TURN MILES<br>INTO MONEY</h1>
-		<h3>SIGN UP TO DRIVE WITH LYFT</h3>
+		<!--Información-->
+		<div id="info">
+			<div id="info-iz">
+				<p class="title">A RIDE IN MINUTES</p>
+				<p>Request a ride and you'll be on your way in minutes. <br> Request. Ride. Repeat.</p><br>
+				<p class="title">SERIOUS ABOUT SAFETY</p>
+				<p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you</p><br>
+				<p class="title">HAPPY DIVERS.<br> HAPPY RIDERS.</p>
+				<p>Ride with us and you'll see why 9 out 10 rides end with five stars.</p><br>
+			</div>
+			<div id="info-der">
+				<img src="img/phone.png" id="img-phone">
+			</div>
+		</div>
 
-		<input type="text" id="number" placeholder="Phone Number"><br><br>
-		<input type="text" id="name" placeholder="Name"><br><br>
-		<input type="email" id="mail" placeholder="Email"><br><br>
-		<input type="text" id="city" placeholder="City"><br><br><br>
-
-		<button id="driver">Become a driver</button>
-		<a id="sup" href="#login">Sign up to ride</a>
-		<p id="bajada-form">Already applied? Check the status of your application here <br><br> Earn money for inviting friends to drive. Learn more.</p>
+		<!--Videos-->
+		<div id="video">
+			<div id="video1">
+				<div class="vid-text">
+					<p class="pre-title">WATCH</p>
+					<p class="title-video">AMPLIFY YOUR RIDE</p>
+					<p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passngers and drivers to find each other</p><br>
+				</div>
+				<div class="vid-video">
+					<iframe src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div id="video2">
+				<div class="vid-video">
+					<iframe src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="vid-text">
+					<p class="pre-title">WATCH</p>
+					<p class="title-video">JUNE</p>
+					<p>In an animated short film by Academy Adward-winner Jhon Kahrs, a lonely widow in a historic South Chicago is empowerd to start sharing the ride -and sharing her life, too.</p><br>
+				</div>
+			</div>
+			<div id="video3">
+				<div class="vid-text">
+					<p class="pre-title">WATCH</p>
+					<p class="title-video">A GOOD THING GOING</p>
+					<p>Launching on TV and online, "Ride on tha Bright Side" shows how Lyft continues to prioritaze happy drivers, short ETAs, and safety.</p><br>
+				</div>
+				<div class="vid-video">
+					<iframe src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<!--Información-->
-	<div id="info">
-		<div id="info-iz">
-			<p class="title">A RIDE IN MINUTES</p>
-			<p>Request a ride and you'll be on your way in minutes. <br> Request. Ride. Repeat.</p><br>
-			<p class="title">SERIOUS ABOUT SAFETY</p>
-			<p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you</p><br>
-			<p class="title">HAPPY DIVERS.<br> HAPPY RIDERS.</p>
-			<p>Ride with us and you'll see why 9 out 10 rides end with five stars.</p><br>
+	<!--Footer-->
+	<footer>
+		<div class="bottom-rows">
+			<nav id="bottom-nav" class="links">
+				<a href="">LOG IN</a><br><br><br>
+				<a href="">Help</a><br><br><br>
+				<a href="">Cities</a><br><br><br>
+				<a href="">Airports</a><br><br><br>
+				<a href="">Fare Estimate</a><br><br><br>
+			</nav>
 		</div>
-		<div id="info-der">
-			<img src="img/phone.png" id="img-phone">
+		<div class="bottom-rows">
+			<nav id="bottom-nav" class="links">
+				<a href="">PARTNER</a><br><br><br>
+				<a href="">Partnerships</a><br><br><br>
+				<a href="">Enterprise</a><br><br><br>
+				<a href="">Ambassador</a><br><br><br>
+				<a href="">Developers</a><br><br><br>
+			</nav>
 		</div>
-	</div>
+		<div class="bottom-rows">
+			<nav id="bottom-nav" class="links">
+				<a href="">LEARN</a><br><br><br>
+				<a href="">Safety</a><br><br><br>
+				<a href="">Blog</a><br><br><br>
+				<a href="">Press</a><br><br><br>
+				<a href="">Carrers</a><br><br><br>
+			</nav>
+		</div>
+		<div class="bottom-rows">
+			<img class="footer-img" src="img/apple-store.svg"><br><br><br>
+			<img class="footer-img" src="img/google-play.png"><br><br><br>
+			<img class="footer-img" src="img/microsoft.png"><br><br><br>
+		</div>
+		<div id="bottom-bottom">
+			<div>
+				<img class="bottom-icons" src="img/facebook.png">
+				<img class="bottom-icons" src="img/instagram.png">
+				<img class="bottom-icons" src="img/twitter.png">
+			</div>
+			<br><hr><br>
+			<p>&copy 2017 Lyft, Inc.TermsPrivacy</p>
+		</div>
+	</footer>
 
-	<!--Videos-->
-	<div id="video">
-		<div id="video1">
-			<div class="vid-text">
-				<p class="pre-title">WATCH</p>
-				<p class="title-video">AMPLIFY YOUR RIDE</p>
-				<p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passngers and drivers to find each other</p><br>
-			</div>
-			<div class="vid-video">
-				<iframe src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-		<div id="video2">
-			<div class="vid-video">
-				<iframe src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="vid-text">
-				<p class="pre-title">WATCH</p>
-				<p class="title-video">JUNE</p>
-				<p>In an animated short film by Academy Adward-winner Jhon Kahrs, a lonely widow in a historic South Chicago is empowerd to start sharing the ride -and sharing her life, too.</p><br>
-			</div>
-		</div>
-		<div id="video3">
-			<div class="vid-text">
-				<p class="pre-title">WATCH</p>
-				<p class="title-video">A GOOD THING GOING</p>
-				<p>Launching on TV and online, "Ride on tha Bright Side" shows how Lyft continues to prioritaze happy drivers, short ETAs, and safety.</p><br>
-			</div>
-			<div class="vid-video">
-				<iframe src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-
-	
 <!--Script-->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>

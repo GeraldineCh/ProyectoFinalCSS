@@ -2,8 +2,15 @@
 * {
 	font-family: 'Montserrat', sans-serif;
 }
+
 body {
-	margin: 0;
+  position: relative;
+  margin: 0;
+}
+
+#container {
+	height: 2743px;
+	display: block;
 }
 
 video { 
@@ -60,6 +67,7 @@ a:hover {
 
 /*SECCIÓN FORMULARIO*/
 #form {
+	display: block;
 	width: 428px;
     height: 500px;
     padding: 20px 60px;
@@ -108,6 +116,7 @@ input {
 
 /*SECCIÓN INFORMACIÓN*/
 #info {
+	display: block;
 	color: white;
 	position: absolute;
 	width: 77.76%;
@@ -135,8 +144,9 @@ input {
 	height: 550px;
 }
 
-/*SECCIÓN INFORMACIÓN*/
+/*SECCIÓN VIDEOS*/
 #video {
+	display: block;
 	color: black;
 	position: absolute;
 	width: 99.9%;
@@ -174,4 +184,41 @@ input {
 iframe {
     width: 893px;
     height: 470px;
+}
+
+/*FOOTER*/
+footer {
+	display: block;
+	background-color: #333447;
+	height: 530px;
+	color: white;
+	padding: 40px 120px;
+}
+
+.bottom-rows {
+	display: inline-block;
+	margin-right: 120px;
+}
+
+#bottom-nav {
+	margin: 20px 30px; 
+}
+
+.footer-img {
+	width: 135px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#bottom-bottom {
+	margin-top: 35px;
+	margin-left: 25%;
+	width: 50%;
+	text-align: center;
+}
+
+.bottom-icons {
+	height: 35px;
+    width: 35px;
+    margin: 0px 40px;
 }
