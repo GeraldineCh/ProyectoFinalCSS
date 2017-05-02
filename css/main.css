@@ -1,3 +1,4 @@
+/*PARA EL CUERPO GENERAL*/
 * {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -12,8 +13,12 @@ video {
   z-index: -100;
 }
 
+/*CABECERA*/
 header {
+	display: block;
 	padding: 20px 80px;
+	position: fixed;
+	width: 100%;
 }
 
 #Lyft-blanco {
@@ -46,4 +51,24 @@ a:hover {
 	padding: 8px;
 	border: 2px solid white;
     border-radius: 5px;
+}
+
+/*SECCIÓN FORMULARIO*/
+#form {
+	width: 400px;
+	height: 400px;
+	padding:40px;
+	margin-top: 100px;
+    margin-left: 64.4%;
+    background-color: white;
+    color: purple;
+    position: absolute;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
 }
